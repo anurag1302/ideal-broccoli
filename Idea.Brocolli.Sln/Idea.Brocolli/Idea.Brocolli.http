@@ -1,0 +1,6 @@
+@Idea.Brocolli_HostAddress = http://localhost:5149
+
+GET {{Idea.Brocolli_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

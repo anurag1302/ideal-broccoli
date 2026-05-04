@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Idea.Brocolli.Sln/.vs
+/Idea.Brocolli.Sln/Idea.Brocolli/bin/Debug/net10.0
+/Idea.Brocolli.Sln/Idea.Brocolli/obj
