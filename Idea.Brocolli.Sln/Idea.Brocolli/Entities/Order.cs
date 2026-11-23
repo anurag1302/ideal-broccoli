@@ -8,7 +8,7 @@ public class Order
 
     public DateTime CreatedAt { get; set; }
 
-    public string Status { get; set; } = "PENDING";
+    public string? Status { get; set; } = "PENDING";
 
     // Navigation property
     public Customer Customer { get; set; } = null!;
