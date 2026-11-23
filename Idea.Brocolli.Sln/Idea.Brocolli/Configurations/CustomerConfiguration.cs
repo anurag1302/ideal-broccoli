@@ -33,9 +33,7 @@ public class CustomerConfiguration:IEntityTypeConfiguration<Customer>
 
         builder.Property(c => c.CreatedAt)
             .HasColumnName("created_at")
-            .HasColumnType("datetime")
+            .HasColumnType("timestamp with time zone")
             .HasDefaultValueSql("NOW()");
-
-
     }
 }
